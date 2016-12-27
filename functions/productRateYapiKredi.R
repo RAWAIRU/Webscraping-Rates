@@ -2,7 +2,7 @@
 # Objective: read information from website
 productRateYapiKredi <- function(urlBank,htmlNode,nodePos=0, scaleRate =1) {
 
-  html <- urlBank #%>% GET(user_agent('R')) %>% content('text')
+  html <- urlBank %>% GET(user_agent('R')) %>% httr::content('text')
   
   # if multiple nodes are selected
   rateProduct1 <- html %>%

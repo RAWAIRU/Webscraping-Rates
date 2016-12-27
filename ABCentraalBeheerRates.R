@@ -3,7 +3,6 @@
 # - Objective: Haal rente op en sla op in CSV file
 
 # Define setting - Generic
-setwd("C:/Users/Rowi/Documents/Webscraping with R")
 source('settings/settingsGeneric.R')
 
 #Start Timer
