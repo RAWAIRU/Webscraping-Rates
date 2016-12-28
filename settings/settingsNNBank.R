@@ -31,6 +31,7 @@ productDur10     <- "7"
 productDur11     <- "9"
 productDur12     <- "10"
 #Product links
+typeScrape <- "HTTP"
 url_bank  <- "https://www.nn.nl/Particulier/Sparen/Uw-internetspaarrekening/Actuele-spaarrentes.htm"
 url_bank2 <- ""
 productUrl1   <- url_bank

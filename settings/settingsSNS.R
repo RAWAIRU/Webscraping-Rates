@@ -35,6 +35,7 @@ productDur12     <- "8"
 productDur13     <- "9"
 productDur14     <- "10"
 #Product links
+typeScrape <- "HTTP"
 url_bank  <- "https://www.snsbank.nl/particulier/sparen.html"
 url_bank2 <- "https://www.snsbank.nl/particulier/sparen/keuzedeposito.html"
 productUrl1   <- url_bank

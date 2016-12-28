@@ -7,7 +7,7 @@ storeRates <- function(initateDB = FALSE, columnNames = c(), dataframeRates = NU
     # Option 1: Create new file  
     dataframeRates <- rbind(columnNames, dataframeRates)
     write.table(dataframeRates, file = dbRates, na="NA", quote= F,col.names = F,row.names = F,sep=",")
-    print(paste("Database has been stored under location:", dbRates))
+    print(paste("=> Rate Db initiated:", dbRates))
     
   }else{
     # Option 2: Write to existing file encompassing following steps:
@@ -25,8 +25,8 @@ storeRates <- function(initateDB = FALSE, columnNames = c(), dataframeRates = NU
     
     write.table(allUnique, file = dbRates, row.names=F,col.names=T,na="NA",append=F, quote= F, sep=",")
     write.table(dfRead, file = dbArchive, row.names=F,col.names=T,na="NA",append=F, quote= F, sep=",")
-    print(paste("Database has been updated under location:", dbRates))
-    print(paste("Former database has been archived under location:", dbArchive))
+    print(paste("=> Rate Db updated:", dbRates))
+    print(paste("=> Rate Db archived:", dbArchive))
   }
   
   return('SUCCES')

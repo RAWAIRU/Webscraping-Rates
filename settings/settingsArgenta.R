@@ -20,6 +20,7 @@ productDur5      <- "3"
 productDur6      <- "5"
 
 #Product links
+typeScrape    <- "HTTP"
 url_bank  <- "https://www.argenta.nl/sparen/spaarrente-overzicht"
 url_bank2 <- ""
 productUrl1   <- url_bank

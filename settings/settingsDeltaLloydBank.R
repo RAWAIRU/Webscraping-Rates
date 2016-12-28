@@ -18,6 +18,7 @@ productDur4      <- "5"
 productDur5      <- "10"
 
 #Product links
+typeScrape    <- "PDFDL"
 url_bank  <- "http://www.deltalloyd.nl/sparen/spaarrente.jsp"
 url_bank2 <- ""
 productUrl1   <- url_bank

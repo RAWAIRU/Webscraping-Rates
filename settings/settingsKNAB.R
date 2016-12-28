@@ -27,6 +27,7 @@ productDur8      <- "5"
 productDur9      <- "6"
 productDur10     <- "3/12"
 #Product links
+typeScrape    <- "HTTPKNAB"
 url_bank      <- "https://www.knab.nl/rente-tarieven"
 productUrl1   <- url_bank
 productUrl2   <- url_bank

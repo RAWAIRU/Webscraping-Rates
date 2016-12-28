@@ -27,6 +27,7 @@ productDur8   <- "5"
 productDur9   <- "7"
 productDur10  <- "10"
 #Product links
+typeScrape    <- "JSONAB"
 url_bank      <- "https://www.centraalbeheer.nl/json/rpr.json.js"
 url_bank2     <- "https://www.centraalbeheer.nl/json/rvr.json.js"
 productUrl1   <- url_bank

@@ -25,6 +25,7 @@ productDur7      <- "3"
 productDur8      <- "4"
 productDur9      <- "5"
 #Product links
+typeScrape    <- "HTTPLPB"
 url_bank      <- "https://www.leaseplanbank.nl/sparen/overzicht/"
 url_bank2     <- ""
 productUrl1   <- url_bank

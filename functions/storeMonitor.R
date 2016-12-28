@@ -9,7 +9,7 @@ storeMonitor <- function(initiateDB = FALSE, columnNames = c(), dataframeValues 
     # Option 1: Create new file  
     dataframeValues <- rbind(columnNames, dataframeValues)
     write.table(dataframeValues, file = dbName, na="NA", quote= F,col.names = F,row.names = F,sep=",")
-    print(paste("Database has been stored under location:", dbName))
+    print(paste("=> Monitor DB initiated:", dbName))
     
   }else{
     # Option 2: Write to existing file encompassing following steps:
@@ -27,8 +27,8 @@ storeMonitor <- function(initiateDB = FALSE, columnNames = c(), dataframeValues 
     
     write.table(allUnique, file = dbName, row.names=F,col.names=T,na="NA",append=F, quote= F, sep=",")
     write.table(dfRead, file = dbArchive, row.names=F,col.names=T,na="NA",append=F, quote= F, sep=",")
-    print(paste("Database has been updated under location:", dbName))
-    print(paste("Former database has been archived under location:", dbArchive))
+    print(paste("=> Monitor DB updated:", dbName))
+    print(paste("=> Monitor DB archived:", dbArchive))
   }
   
   return('Monitoring Database stored')

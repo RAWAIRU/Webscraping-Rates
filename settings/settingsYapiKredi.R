@@ -34,6 +34,7 @@ productDur12      <- "9"
 productDur13      <- "10"
 
 #Product links
+typeScrape <- "HTTP"
 url_bank  <- "http://www.yapikredi.nl/particulieren/renteoverzicht/"
 url_bank2 <- ""
 productUrl1   <- url_bank

@@ -1,12 +1,2 @@
 @echo off
-"C:\Program Files\R\R-3.3.2\bin\x64\R.exe" CMD BATCH "C:\Users\Rowi\Documents\Webscraping with R\LeaseplanRates.R"
-"C:\Program Files\R\R-3.3.2\bin\x64\R.exe" CMD BATCH "C:\Users\Rowi\Documents\Webscraping with R\KNABRates.R"
-"C:\Program Files\R\R-3.3.2\bin\x64\R.exe" CMD BATCH "C:\Users\Rowi\Documents\Webscraping with R\NIBCRates.R"
-"C:\Program Files\R\R-3.3.2\bin\x64\R.exe" CMD BATCH "C:\Users\Rowi\Documents\Webscraping with R\SNSRates.R"
-"C:\Program Files\R\R-3.3.2\bin\x64\R.exe" CMD BATCH "C:\Users\Rowi\Documents\Webscraping with R\ABCentraalBeheerRates.R"
-"C:\Program Files\R\R-3.3.2\bin\x64\R.exe" CMD BATCH "C:\Users\Rowi\Documents\Webscraping with R\NNBankRates.R"
-"C:\Program Files\R\R-3.3.2\bin\x64\R.exe" CMD BATCH "C:\Users\Rowi\Documents\Webscraping with R\AegonBankRates.R"
-"C:\Program Files\R\R-3.3.2\bin\x64\R.exe" CMD BATCH "C:\Users\Rowi\Documents\Webscraping with R\DeltaLloydBankRates.R"
-"C:\Program Files\R\R-3.3.2\bin\x64\R.exe" CMD BATCH "C:\Users\Rowi\Documents\Webscraping with R\ArgentaRates.R"
-"C:\Program Files\R\R-3.3.2\bin\x64\R.exe" CMD BATCH "C:\Users\Rowi\Documents\Webscraping with R\OHRARates.R"
-"C:\Program Files\R\R-3.3.2\bin\x64\R.exe" CMD BATCH "C:\Users\Rowi\Documents\Webscraping with R\YapiKrediRates.R"
+"C:\Program Files\R\R-3.3.2\bin\x64\R.exe" CMD BATCH "C:\Users\Rowi\Documents\Webscraping with R\_PRODUCTION\ControlCenter.R"

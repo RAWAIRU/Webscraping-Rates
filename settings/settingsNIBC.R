@@ -35,6 +35,7 @@ productDur12     <- "8"
 productDur13     <- "9"
 productDur14     <- "10"
 #Product links
+typeScrape    <- "HTTP"
 url_bank      <- "https://www.nibcdirect.nl/rentes/nieuwe-rentetarieven"
 url_bank2     <- ""
 productUrl1   <- url_bank

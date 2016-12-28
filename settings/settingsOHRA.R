@@ -18,6 +18,7 @@ productDur4      <- "5"
 productDur5      <- "10"
 
 #Product links
+typeScrape <- "HTTP"
 url_bank  <- "http://www.ohra.nl/sparen/rente-rentegarantie.jsp"
 url_bank2 <- ""
 productUrl1   <- url_bank

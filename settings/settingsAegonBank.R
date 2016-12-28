@@ -31,6 +31,7 @@ productDur10     <- "7"
 productDur11     <- "9"
 productDur12     <- "10"
 #Product links
+typeScrape    <- "HTTP"
 url_bank  <- "https://www.aegon.nl/particulier/sparen/internetsparen/actuele-spaarrente"
 url_bank2 <- ""
 productUrl1   <- url_bank
