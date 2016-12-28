@@ -1,9 +1,11 @@
 # storeMonitor
 # Objective: store whether retrieval of rates was succesfull in database (for monitoringpurposes)
-storeMonitor <- function(initateDB = FALSE, columnNames = c(), dataframeValues = NULL, dbName = '', dbArchive = '') {
+storeMonitor <- function(initiateDB = FALSE, columnNames = c(), dataframeValues = NULL, dbName = '', dbArchive = '') {
+  
   
   # Initiate database
   if (initiateDB){
+    
     # Option 1: Create new file  
     dataframeValues <- rbind(columnNames, dataframeValues)
     write.table(dataframeValues, file = dbName, na="NA", quote= F,col.names = F,row.names = F,sep=",")
@@ -19,7 +21,7 @@ storeMonitor <- function(initateDB = FALSE, columnNames = c(), dataframeValues =
     # - Store file with the non duplicate rows
     # - Archive file with the non duplicate rows
     dfRead                    <- read.csv(file = dbName, stringsAsFactors=FALSE, sep=",") 
-    colnames(dataframeValues) <- colnames(dfRead)
+    #colnames(dataframeValues) <- colnames(dfRead)
     allD                      <- rbind(dfRead, dataframeValues) 
     allUnique                 <- unique(allD)
     
